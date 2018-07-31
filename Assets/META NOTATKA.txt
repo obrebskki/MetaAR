@@ -1,0 +1,17 @@
+Protip: Jeœli po w³¹czeniu jakiejkolwiek apki dostajemy czarny ekran, a na headsecie nic siê nie wyœwietla, nale¿y odinstalowaæ ca³¹ Metê oraz nastêpnie wywaliæ wszystkie foldery "Meta", "Meta Company" z folderów "AppData/Local", "AppData/LocalLow", "AppData/Roaming", potem zainstalowaæ ponownie. Mnie to pomog³o.
+
+
+Poniewa¿ Meta2 wywo³uje frustracjê, pozwolê sobie tutaj na suchara:
+Imagine if Americans switched from pounds to kilograms overnight... There would be a mass confusion.
+
+
+Scena HandClick - klikniêcie na obiekt poprzez z³apanie i natychmiastowe puszczenie. Jeœli trzymamy obiekt i kamerka Mety zgubi œledzenie naszej rêki, to obiekt jest automatycznie upuszczony, co te¿ niestety mo¿e to byæ potraktowane jako klikniêcie.
+
+Scena Pegs - kalka z https://youtu.be/7cK3nEL-W18?t=7m55s . Nale¿y dopasowaæ kolor ko³a wewnêtrznego do zewnêtrznych, obracaj¹c tymi zewnêtrznymi (jak to piêknie brzmi). Nie zd¹¿y³em dodaæ jakichœ efektów czy nawet sprawdzenia sukcesu. Kontrolowane przez custom inspectora pod obiektami "Peg".
+
+Scena ThrowScene - bierzemy kostkê z przodu (albo te z boku) i rzucamy o d³ugie kostki. Przez brak p³ynnoœci i gubienie œledzenia zabawa jest mierna. Generalnie Meta chyba nadaje siê bardziej do takich w miarê stacjonarnych zabaw, jak karmienie japoñskich kotków.
+
+Scena PegsWithHandClick - pegsy z AR. Ogólnie to tak sobie wysz³o, Meta nie chce ³apaæ zdarzenia klikniêcia, btw na przysz³oœæ mo¿na po³¹czyæ HandClick z HandClickInteraction.
+
+
+Powodzenia z tym, wiem ¿e siê przyda.
