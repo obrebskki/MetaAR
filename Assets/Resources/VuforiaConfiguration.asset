@@ -8,15 +8,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -2067402452, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Script: {fileID: -2067402452, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: 
-    ufoLicenseKey: QVRrQ2Rtbi8vLy8vQUFBQUtHREJHbjdzSWtvQ3ZmUEhzamUzSkljUFVnZE1aRENXQkh6YVhGaUJ0d0FON25vT2dubE9aODFhZytaMDRmbmpSVWNRWTB6K2FNYytaZlFpb2hLTDBDZ3d6c3JyTVpaN2dCWi8xS3Y1d3BCSzN5S3hVSVE5ZXVGaHhKeHBlMi8vWjVod1RzRVowUEVTM1BVOGpFR3krbG42OCtBV1Z2YWVqNEJoMVVrd0xzS05OcDNWSDlINFhJdWVPdEpIdlVpQUhUVjVjSmYwSXlBSUZHU05DejRLZk9xb201ZHRXSlh2cU9aZlk0NnBQNXQ5T2FUcWdhYzNNQW5XMWxBSnd6YjROdDQzZExEV3B4VkJ6VVc1Q1NsUFNQS3hJWWVuZk9Ia2lFUVd6ZmpRZUowbVZ1cUd4MnFiT3BwSUNRdDZRQkdCWUgxblVlVWlSenVTTHBydmlnalZ1MVN4L0k1eFpYM2owMkVyeWRJd0NBUUE=
+    vuforiaLicenseKey: AceYfVL/////AAABGb0oSzltn0IEjfGf/tdZYZNxoIx+tvT4FQcryCcC2WGrZHNUsXsYV/n0vko0gweCWzWzcOmgLH7JApYt+MLbaEqh2KMsQEuHTsNsupG4ugJFj0GNDvRX/YutCMHDkcgYBQ6bcsGzVOHmFBOJhQihFjyL7yFzxSPs7HHxtCfC8munQ8HEz7YeOXXv/qDxRL65SF2OrHBy6NhbNlsb6OxvvUzrkxQVZmzHlAB6G2iL6ZB/OqbK8IoWb/C6GBo67G0ZSccIKoKHfow/4sWSUAdTtMS2na8Mk9RMn3NSSeu/cD4L7brPoxYFWA2qXP63zxkNs7PNlAEQUigFkTbaYNt/2R0oUL4gezFgXm8JjfUGj/0r
+    ufoLicenseKey: QVgzQUVLTC8vLy8vQUFBQUtFaytGOVhlOFVaOGxPbHpybFk0TVB0RkpwcVJPcCs1dUhUbTVpVmZSTnlRamRTMXFVQmZUbnhPdkU5Mm5oQUtWT1VRRWFBbmpHaEcyWXRVclU2Qm04TTB6L3k3ai9Jazk0cmU1eXhlQXZvcmhqYXVrUWRKbEFMQXJjYWhRemVvbWE3ZVUrb0dxbmhnZ1RQWWtPZ2ZyV0IvWlF1QjI1N3JHSEt3NGdaM0lqVkM0TzJKYzQwdW12U0t5dDlTTy9Yc1BPa2dVS2MzTURpVmRkMXQxS3ZrVFZMTHBzVkxxM1lxQlpLY28vcTB3cUg3SzhJcEJhaEVocldtRW44WTlXOER4ang1OFp1VEpYNFdDeUE3WXN1WjU1Rk83NmxQOXpBL1FKZiswcWx3RXJWSCtzdXJ1UGxmSHlSaTRYRFpmN3ZFdE1PNDJrc2pXWGJabDF0SEt0ZWVlVzRORmoxMmFZNEdkMHFhbUlScUkvWm8=
     delayedInitialization: 0
-    cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 4
+    cameraDeviceModeSetting: -3
+    maxSimultaneousImageTargets: 2
     maxSimultaneousObjectTargets: 1
     useDelayedLoadingObjectTargets: 0
     cameraDirection: 0
@@ -26,7 +26,7 @@ MonoBehaviour:
     distortionRenderingLayer: 31
     eyewearType: 1
     stereoFramework: 0
-    seeThroughConfiguration: 1
+    seeThroughConfiguration: 0
     viewerName: 
     viewerManufacturer: 
     useCustomViewer: 0
@@ -44,16 +44,16 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
-    - VuforiaMars_Images
+    - Test
     dataSetsToActivate:
-    - VuforiaMars_Images
+    - Test
   videoBackground:
     clippingMode: 0
     numDivisions: 2
     videoBackgroundShader: {fileID: 15311, guid: 0000000000000000f000000000000000,
       type: 0}
     matteShader: {fileID: 15310, guid: 0000000000000000f000000000000000, type: 0}
-    videoBackgroundEnabled: 1
+    videoBackgroundEnabled: 0
   deviceTracker:
     autoInitTracker: 0
     autoStartTracker: 0
@@ -66,7 +66,7 @@ MonoBehaviour:
     autoInitTracker: 0
     autoStartTracker: 0
   webcam:
-    deviceNameSetInEditor: 
+    deviceNameSetInEditor: Meta2 Webcam
     flipHorizontally: 0
     turnOffWebCam: 0
     renderTextureLayer: 30

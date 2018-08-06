@@ -194,6 +194,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1726361881837584
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4518421668377776}
+  m_Layer: 0
+  m_Name: Webcam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!4 &4000010325708828
 Transform:
   m_ObjectHideFlags: 1
@@ -271,13 +286,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011859835720}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4000010356474898}
   - {fileID: 4000013656957370}
   - {fileID: 4689898028373434}
+  - {fileID: 4518421668377776}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -320,6 +336,19 @@ Transform:
   m_Father: {fileID: 4864388679425520}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4518421668377776
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726361881837584}
+  m_LocalRotation: {x: 0.13052616, y: 0, z: 0, w: 0.9914449}
+  m_LocalPosition: {x: -0.0315, y: 0.035, z: 0.097}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4000013221008208}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 15, y: 0, z: 0}
 --- !u!4 &4689898028373434
 Transform:
   m_ObjectHideFlags: 1
@@ -561,7 +590,7 @@ MonoBehaviour:
     m_TypeName: Meta.SlamLocalizer+SLAMLocalizerResetEvent, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   _loadingMapWaitTime: 10
-  _showCalibrationUI: 1
+  _showCalibrationUI: 0
   _rotationOnlyTracking: 0
 --- !u!114 &114000011699626466
 MonoBehaviour:
@@ -659,6 +688,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2da2f64f3c9925b4485a4eab13f4d4c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _logoCanvasPrefab: {fileID: 0}
 --- !u!114 &114563508783009562
 MonoBehaviour:
   m_ObjectHideFlags: 1
